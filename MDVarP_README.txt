@@ -4,7 +4,7 @@ MDVarP version 1.0 2-20-2024
 The MDVarP implements an ensemble model based on 1000 random forest predictors 
 to identify combinations of modifier variants and disease-causing variants. 
 
-The MDVarP was built under R version 4.0.2.
+The MDVarP was built under R version 4.3.2.
 
 ===============================================================================
 Executable code:
@@ -20,7 +20,7 @@ Run shell scripts in Windows.
 1. Set path
 set R_Script= Your Rscript PATH
 #eg:   
-#set R_Script="C:\Program Files\R\R-4.0.2\bin\RScript.exe"
+#set R_Script="C:\Program Files\R\R-4.3.2\bin\RScript.exe"
 
 2. Run MDVarP
 %R_Script% MDVarP.r inputfile outputfile
@@ -110,4 +110,4 @@ The output file contains 1 line per variant pair.  There are 4 columns:
 1 Bi_Loci_ID
 2 C-score
 3 S-score
-4 MDVarP_output # 1 for ¡°Associated-pair¡±, 0 for ¡°Nonrelevant-pair¡±
+4 MDVarP_output # 1 for Â¡Â°Associated-pairÂ¡Â±, 0 for Â¡Â°Nonrelevant-pairÂ¡Â±
